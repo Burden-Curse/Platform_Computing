@@ -24,7 +24,7 @@ The following **bonus** features are implemented:
 ## Screenshot and/or Video Walkthrough
 
 <img src="https://imgur.com/gallery/4rAXx5x" title='Example Video Walkthrough' width='' alt='Example Video Walkthrough' />
-
+<img src="images/Screenshot1" title='First Half of the Website' width='' alt'First Half of the Website' />-
 
 ## Notes:
 PROVIDE RELEVANT OR ADDITIONAL INFORMATION HERE. Below are formatting options to add emphasis in text
