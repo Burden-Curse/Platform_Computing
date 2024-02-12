@@ -23,8 +23,10 @@ The following **bonus** features are implemented:
 
 ## Screenshot and/or Video Walkthrough
 
-<img src="https://imgur.com/gallery/4rAXx5x" title='Example Video Walkthrough' width='' alt='Example Video Walkthrough' />
-<img src="images/Screenshot1" title='First Half of the Website' width='' alt'First Half of the Website' />-
+<img src= "images/Screenshot1.png" title='First Half of the Website' width='' alt='First Half of the Website' />
+<img src= "images/Screenshot2.png" title='Second Half of the Website' width='' alt='Second Half of the Website' />
+[First](https://github.com/Burden-Curse/Platform_Computing/blob/main/Assignment%201/images/Screenshot1.png)
+
 
 ## Notes:
 PROVIDE RELEVANT OR ADDITIONAL INFORMATION HERE. Below are formatting options to add emphasis in text
