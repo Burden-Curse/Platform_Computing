@@ -25,7 +25,6 @@ The following **bonus** features are implemented:
 
 <img src= "images/Screenshot1.png" title='First Half of the Website' width='' alt='First Half of the Website' />
 <img src= "images/Screenshot2.png" title='Second Half of the Website' width='' alt='Second Half of the Website' />
-[First](https://github.com/Burden-Curse/Platform_Computing/blob/main/Assignment%201/images/Screenshot1.png)
 
 
 ## Notes:
