@@ -19,11 +19,11 @@ The following **bonus** features are implemented:
 
 - [X] Applies different font(s). (0.5 pt)
 - [ ] Applies border and margins. (0.5 pt)
-- [ ] DESCRIBE ANY OTHER FEATURES HERE.
+- [X] Button Link to GitHub
 
 ## Screenshot and/or Video Walkthrough
 
-<img src= "images/Screenshot1.png" title='First Half of the Website' width='' alt='First Half of the Website' />
+<img src= "images/Screenshot3.png" title='First Half of the Website' width='' alt='First Half of the Website' />
 <img src= "images/Screenshot2.png" title='Second Half of the Website' width='' alt='Second Half of the Website' />
 
 
