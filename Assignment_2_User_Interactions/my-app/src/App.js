@@ -15,6 +15,7 @@ function App() {
         </header>
         <h1>About Me</h1>
         <div className="Para1">
+        <div class="everything">
           <h2 style={{textAlign: 'center'}}>Early Life</h2>
           <p>
             I was born in Beverly Hills right before New Years (Dec 29).
@@ -47,6 +48,7 @@ function App() {
             game engines so far. Unity, Unreal Engine and RenPy. RenPy is more so for a personal project that I've been working on. I want to mainly use Unreal Engine over Unity because of the controversy plus UE being C++. I've somehow have maintained my 3.4 GPA
             somehow through my College and University time.
           </p>
+        </div>
         </div>
     </div>
       </header>
