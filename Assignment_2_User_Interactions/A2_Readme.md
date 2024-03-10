@@ -19,9 +19,6 @@ The following **bonus** features are implemented:
 - [X] Saves metrics into csv file (1 pt)
 - [ ] Monitors at least 4 metrics (1 pt)
 - [ ] DESCRIBE ANY OTHER FEATURES HERE.
-
-      
-- [ ] My metric_tracker.py is full of all my failed attempts
       
 ## Screenshot and/or Video Walkthrough
 
@@ -34,6 +31,5 @@ The following **bonus** features are implemented:
 ## Notes:
 PROVIDE RELEVANT OR ADDITIONAL INFORMATION HERE. Below are formatting options to add emphasis in text
 <ul>
-  <li>**Example in bold**</li>
-  <li>*Example in italics*</li>
+  <li>**My metric_tracker.py is full of all my failed attempts**</li>
 </ul>
