@@ -2,27 +2,33 @@
 
 PROVIDE OVERVIEW OF ASSIGNMENT HERE
 
-Time spent: **2** hours spent in total
+Time spent: **6** hours spent in total
 
 ## Features
 
 The following **required** features are completed:
 
-- [ ] Organize Github project for Assignment 2 (2 pt)
-- [ ] Transfer your About Me Page into a React App with screenshot of output in the Images folder(3 pt)
-- [ ] Set up Selenium (2 pt)
-- [ ] Write your first Selenium script with screenshot of output in the Images folder (4 pt)
-- [ ] Monitor at least 2 metrics using Selenium with screenshot of output in the Images folder (4 pt)
+- [X] Organize Github project for Assignment 2 (2 pt)
+- [X] Transfer your About Me Page into a React App with screenshot of output in the Images folder(3 pt)
+- [X] Set up Selenium (2 pt)
+- [X] Write your first Selenium script with screenshot of output in the Images folder (4 pt)
+- [X] Monitor at least 2 metrics using Selenium with screenshot of output in the Images folder (4 pt)
 
 The following **bonus** features are implemented:
 
-- [ ] Saves metrics into csv file (1 pt)
+- [X] Saves metrics into csv file (1 pt)
 - [ ] Monitors at least 4 metrics (1 pt)
 - [ ] DESCRIBE ANY OTHER FEATURES HERE.
 
+      
+- [ ] My metric_tracker.py is full of all my failed attempts
+      
 ## Screenshot and/or Video Walkthrough
 
-<img src="https://imgur.com/gallery/4rAXx5x" title='Example Video Walkthrough' width='' alt='Example Video Walkthrough' />
+<img src="Images/About_Me_on_React.png" title='React Image' width='' alt='React Image output' />
+<img src="Images/selenium_tutorial.png" title='Selenium Tutorial' width='' alt='Selenium Tutorial output' />
+<img src="Images/metric_tracker_output.png" title='Metric Tracker' width='' alt='Metric Tracker output' />
+
 
 
 ## Notes:
