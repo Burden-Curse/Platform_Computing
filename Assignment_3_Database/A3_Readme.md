@@ -22,7 +22,10 @@ The following **bonus** features are implemented:
 
 ## Screenshot and/or Video Walkthrough
 
-<img src="Images/About_Me_on_React.png" title='React Image' width='' alt='React Image output' />
+<img src="Images/SQLMurderMystery.png" title='React Image' width='' alt='SQLMurderMystery' />
+<img src="Images/MangoDBWalkthrough.png" title='React Image' width='' alt='MangoDBWalkthrough' />
+<img src="Images/MySQLDataBase.png" title='React Image' width='' alt='MYSQLDataBase' />
+<img src="Images/saved_metrics.png" title='React Image' width='' alt='saved_metrics' />
 
 ## Notes:
 PROVIDE RELEVANT OR ADDITIONAL INFORMATION HERE. Below are formatting options to add emphasis in text
