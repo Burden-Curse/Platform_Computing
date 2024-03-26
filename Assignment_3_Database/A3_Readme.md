@@ -22,12 +22,11 @@ The following **bonus** features are implemented:
 
 ## Screenshot and/or Video Walkthrough
 
-<img src="https://imgur.com/gallery/4rAXx5x" title='Example Video Walkthrough' width='' alt='Example Video Walkthrough' />
-
+<img src="Images/About_Me_on_React.png" title='React Image' width='' alt='React Image output' />
 
 ## Notes:
 PROVIDE RELEVANT OR ADDITIONAL INFORMATION HERE. Below are formatting options to add emphasis in text
 <ul>
-  <li>**Example in bold**</li>
-  <li>*Example in italics*</li>
+  <li>**Note to self: copying metric_tracker folder caused so many issues**</li>
+  <li>*Trying to .venv defaults to assignment 2*</li>
 </ul>
