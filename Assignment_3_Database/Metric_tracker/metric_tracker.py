@@ -3,6 +3,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
+import mysql.connector
 
 def WritetoCSV(filename : str, metrics : dict):
     with open(file=filename, mode='w', newline="") as csv_file:
@@ -11,6 +12,17 @@ def WritetoCSV(filename : str, metrics : dict):
 
         for i in metrics:
             writer.writerow(i)
+
+mydb = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    passwd="", #Blank on purpose
+    database="cse4500"
+)
+
+mycursor = mydb.cursor()
+
+sqlFormula = "INSERT INTO measurements1 (`TimeStamp`, `Presence Time`, `Scrolling`, `Title Name`) VALUES (%s, %s, %s, %s)"
 
 def main():
     # Initialize browser
@@ -41,30 +53,25 @@ def main():
         #scroll_height = driver.execute_script("return document.body.scrollHeight")
         Title_name = driver.execute_script('return document.title;')
         current_scroll = driver.execute_script("return window.pageYOffset;")
+        TimeStamp = time.strftime("%H:%M:%S", time.localtime())
+        
+        
+        mycursor.execute(sqlFormula, (TimeStamp, presence_time, current_scroll, Title_name))
 
-        #########
-        #Optional
-        #########
-        # for button in buttons:
-        #     button.click()
-        #     num_clicks += 1
-        Number = 0
-        for i in Number_of_p:
-            Number += i
-        #Working, don't touch
-        #Might make it into a Dict later on
-        metrics.append({"TimeStamp (HH:MM:SS)": time.strftime("%H:%M:%S", time.localtime()),
-                        "Presense Time (Seconds)" : presence_time,
-                        "Scrolling (current Pixel)" : current_scroll,
-                        "Title Name" : Title_name})
+        #metrics.append({"TimeStamp (HH:MM:SS)": TimeStamp,
+        #                "Presense Time (Seconds)" : presence_time,
+        #                "Scrolling (current Pixel)" : current_scroll,
+        #                "Title Name" : Title_name})
         
         time.sleep(2)
         count += 1
         
+        
     driver.quit()
     WritetoCSV("Measurements.csv", metrics)
+    mydb.commit()
 
-    
+
 
 if __name__ == "__main__":
     main()
