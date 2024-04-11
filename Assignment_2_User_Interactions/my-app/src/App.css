@@ -67,6 +67,12 @@ h1 {
 
 header{
   text-align: center;
+  padding: auto;
+  
+}
+
+nav{
+  text-align: center;
 }
 
 .Para1{
