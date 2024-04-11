@@ -23,8 +23,10 @@ The following **bonus** features are implemented:
 
 ## Screenshot and/or Video Walkthrough
 
-<img src="https://imgur.com/gallery/4rAXx5x" title='Example Video Walkthrough' width='' alt='Example Video Walkthrough' />
-
+<img src="Images/Keyword_user.png" title='React Image' width='' alt='Keyword' />
+<img src="Images/image_user.png" title='React Image' width='' alt='Image' />
+<img src="Images/Link_user.png" title='React Image' width='' alt='Link' />
+<img src="Images/Unique_User.png" title='React Image' width='' alt='Unique' />
 
 ## Notes:
 PROVIDE RELEVANT OR ADDITIONAL INFORMATION HERE. Below are formatting options to add emphasis in text
