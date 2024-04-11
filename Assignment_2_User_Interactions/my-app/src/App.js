@@ -1,18 +1,21 @@
 //import logo from './logo.svg';
 import grad from './image.jpg';
 import './App.css';
+import ReactDOM from "react-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
+    <Router>
     <header className="App-header">
     <div>
         <meta charSet="UTF-8" />
         <title>About Me</title>
         <link rel="stylesheet" type="text/css" href="Style.css" />
-        <header>
-          <a href="https://github.com/Burden-Curse/Platform_Computing" target="_blank" rel="noopener noreferrer">Link to Github</a>
-        </header>
+        <nav>
+          <a href="https://github.com/Burden-Curse/Platform_Computing" target="_blank" rel="noopener noreferrer">Link to Github</a> &nbsp; &nbsp;
+          <Link to="/" target="_blank" rel="noopener noreferrer">Link</Link>
+        </nav>
         <h1>About Me</h1>
         <div className="Para1">
         <div class="everything">
@@ -23,6 +26,7 @@ function App() {
             I was a very troublesome kid back in early school. Almost failing 5th grade but I was able to pull through. I have a loving family and very loving grandparents that took care of me. I can visit rarely because they live in Los Angeles
             and try to call as much as I can because of their health.
           </p>
+        </div>
         </div>
         <br />
         <br />
@@ -49,36 +53,13 @@ function App() {
             somehow through my College and University time.
           </p>
         </div>
-        </div>
+        
     </div>
       </header>
-    </div>
+    </Router>
   );
 }
 
 export default App;
 
 
-
-/*
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          React
-        </a>
-      </header>
-    </div>
-  );
-}
-*/
